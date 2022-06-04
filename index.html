@@ -6,40 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8" />
   <style>
-    * {
+    html, body {
       margin: 0;
-      padding: 0
-    }
-
-    body {
-      background-color: #e61032;
-    }
-
-    html,
-    body,
-    div {
-      width: 100%;
+      padding: 0;
       height: 100%;
     }
-
-    div {
-      display: flex;
-      /* align-items: center; */
-      align-items:flex-end;
+    body {
+      align-content: flex-end;
+      background-color: #e61032;
+      display: grid;
       justify-content: center;
     }
-
-    img {
-      padding-bottom: 5vh;
-      width: 100%;
-      max-width: 450px;
+    img,a {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+    a {
+      height: 40px;
+      margin-bottom: 5vh;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing:0.05em;
+      font-size: 1.5em;
+      transition: transform .75s ease;
+    }
+    a:hover {
+      transform: scale(1.1);
     }
   </style>
 </head>
 
 <body>
-  <div>
-    <img alt="Gimme Space Design" src="./logo2.jpg">
+      <img alt="Gimme Space Design" src="./logo2.jpg">
+      <a href="mailto:info@gimmespacedesign.com">info@gimmespacedesign.com</a>
+    </div>
   </div>
 </body>
 

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* padding-top: 2rem; */
+}
+.logo {
+  height: 3.4rem;
+}
+
+.menu {
+  padding: 3rem 4rem 1.5rem 4rem;
+  background-color: #e61033;
+}
+.menu2 {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.menu2 a {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+.ms {
+  font-family: 'Montserrat', sans-serif;
+}
+.os {
+  font-family: 'Open Sans', sans-serif;
+}
